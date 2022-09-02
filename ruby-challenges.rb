@@ -12,26 +12,26 @@ num3 = 221
 
 def odd_or_even(num1, num2, num3)
     if num1 % 2 == 0
-      puts "#{num1} is even"
+      puts "#{ num1 } is even"
     else
-      puts "#{num1} is odd"
+      puts "#{ num1 } is odd"
     end
     if num2 % 2 == 0
-        puts "#{num2} is even"
+        puts "#{ num2 } is even"
       else
-        puts "#{num2} is odd"
+        puts "#{ num2 } is odd"
       end
       if num3 % 2 == 0
-        puts "#{num3} is even"
+        puts "#{ num3 } is even"
       else
-        puts "#{num3} is odd"
+        return "#{ num3 } is odd"
       end
   end
 
   
-  p odd_or_even(num1, num2, num3)
+  p odd_or_even( num1, num2, num3 )
 
-#   unsure why im getting an unexpected nil. please advise
+
   
 
 # -------------------2) Create a method that takes in a string and removes all the vowels from the string. Use the test variables provided. 
